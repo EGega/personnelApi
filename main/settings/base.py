@@ -44,9 +44,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     # 'debug_toolbar',
+    'rest_framework.authtoken',
 
     # 'my apps'
-    'personnel'
+    'personnel',
+    'users',
 ]
 
 MIDDLEWARE = [
